@@ -4,10 +4,10 @@
 
 int POTpin1 = A15;
 int POTpin2 = A14;
-int solenoidPin1 = 1;
-int solenoidPin2 = 2;
-int solenoidPin3 = 3;
-int solenoidPin4 = 4;
+int solenoidPin1 = 2;
+int solenoidPin2 = 3;
+int solenoidPin3 = 4;
+int solenoidPin4 = 5;
 int POTval1, POTval2, mapval1, mapval2; 
 
 struct SolVals {
