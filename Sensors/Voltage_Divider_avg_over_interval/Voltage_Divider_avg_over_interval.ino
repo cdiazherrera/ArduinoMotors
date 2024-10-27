@@ -81,9 +81,13 @@ void loop() {
     resistor_unknown = (voltage_out * resistor_known) / (voltage_in-voltage_out);
 
     // Print Results
-    Serial.println("========================================================================");
-    Serial.println("Voltage out = " + String(voltage_out));
-    Serial.println("Unknown resistance = " + String(resistor_unknown));
+    // Serial.println("========================================================================");
+    // Serial.println("Voltage out = " + String(voltage_out));
+    // Serial.println("Unknown resistance = " + String(resistor_unknown));
+    Serial.print("Voltage out: ");
+    Serial.print(voltage_out);
+    Serial.print("\tUnknown resistance: ");
+    Serial.println(resistor_unknown);
 
     // Reset sum
     voltage_sum = 0;
